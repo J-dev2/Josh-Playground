@@ -1,40 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CITADEL - Home</title>
-<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;500;600;700&family=Tektur:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Josh's Playground</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<header>
-  <div class="logo">
+    <!-- Navbar -->
+    <nav>
+        <ul class="navbar">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#current">Current Work</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#social">Social Media</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#videos">Videos</a></li>
+        </ul>
+    </nav>
 
-    <h1>CITADEL</h1>
-  </div>
-  <nav>
-    <ul>
-      <li><a class="nav-link" href="#">Home</a></li>     
-      <li><a class="nav-link" href="/all page/New game/new game.html">New games</a></li>
-      <li><a class="nav-link" href="/all page/game/game.html">Games</a></li>
-      <li><a class="nav-link" href="all page/Contact/contact.html">Contact</a></li>
-      <li><a class="nav-link" href="/all page/about page/about.html">About</a></li>
-    </ul>
-  </nav>
-</header>
+<!-- Hero Section -->
+<section id="hero">
+    <div class="hero-container">
+        <h1>Welcome to Josh's Playground</h1>
+        <p>Explore My World of Creativity and Innovation</p>
+        <button onclick="location.href='#about'">Learn More About Me</button>
+        <div class="marquee">
+            <p>Scrolling Text - Explore - Innovate - Transform - Discover New Horizons</p>
+        </div>
+    </div>
+</section>
 
+</div>
 
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Josh</h2>
+        <p>I'm a passionate developer and designer dedicated to building digital experiences that captivate and inspire.</p>
+    </section>
 
-   <section class="container">
-    <img src="code.jpg" alt="CITADEL">
-      <div class="text">
-        <h1>Who We Are</h1>
-        <p>Citadel, an unblocked game site that provides a hassle-free gaming experience. Our platform allows you to access a vast collection of games, free from any restrictions or limitations. Join us today and discover a world of gaming freedom.</p>
-        <button id="play-now-button" class="cta-button">Play Now</button>
-        <a href="https://discord.com/invite/jUWnvJSdsu" target="_blank" class="discord-button">Join the Discord</a>
-      </div>
-  </section>
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <h2>My Work</h2>
+        <div class="project">
+            <h3>Project Name</h3>
+            <p>Description of the project, challenges, and the solutions provided.</p>
+        </div>
+    </section>
 
+    <!-- Current Work Section -->
+    <section id="current">
+        <h2>What I’m Working On</h2>
+        <div class="project">
+            <h3>Project Name</h3>
+            <p>Brief insight into the project scope and expected completion.</p>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog">
+        <h2>Insights & Stories</h2>
+        <article>
+            <h3>Blog Title</h3>
+            <p>Summary or the first few lines of the post with a 'Read More' link.</p>
+        </article>
+    </section>
+
+    <!-- Social Media Section -->
+    <section id="social">
+        <h2>Connect With Me</h2>
+        <div class="social-links">
+            <!-- Add your social media links here -->
+            <a href="#">Twitter</a>
+            <a href="#">LinkedIn</a>
+            <a href="#">Instagram</a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Get In Touch</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-item">
+            <h3>What services do you offer?</h3>
+            <p>I specialize in web development, UX/UI design, and digital content creation.</p>
+        </div>
+    </section>
+
+    <!-- Video Content Section -->
+    <section id="videos">
+        <h2>Watch and Learn</h2>
+        <div class="video">
+            <h3>Video Title</h3>
+            <p>Description of the video content.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 Josh's Playground. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
